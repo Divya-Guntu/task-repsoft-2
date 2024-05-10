@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg');
+            background-size: cover;
+        }
+        form {
+            background-color: #D4D4D4;
+            box-shadow: 8px 8px 10px 5px grey;
+            padding: 30px;
+            width: 300px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            font-family: serif; 
+        }
+        p {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #666;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .remember-me {
+            margin-bottom: 20px;
+            text-align: center;      
+        }
+        button {
+            width: 80px;
+            background-color: #4CAF50;
+            color: black;
+            border: none;
+            padding: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>LOGIN</h1>
+        <p>Please log-in to your account</p>
+        <label for="email">Email/Phone</label>
+        <input type="text" name="email" placeholder="Email/Phone no" required>
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="checkbox" required>
+        <label for="remember-me">Remember me</label><br>
+        <center><button type="submit">Login</button></center>
+    </form>
+</body>
+</html>
